@@ -35,7 +35,7 @@ app.use((error, req, res, next) => {
 // Kết nối tới MongoDB và chạy Backend ở PORT 3000
 mongoose
   .connect(
-    "mongodb+srv://vinhplaykennen:chauvinh220304@cvprojectcluster.bjkez1d.mongodb.net/hotelsDB?retryWrites=true&w=majority&appName=CVProjectCluster"
+    "..."
   )
   .then(() => {
     app.listen(PORT, () => {
